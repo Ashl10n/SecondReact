@@ -1,7 +1,6 @@
-import FotoPlaceholder from './Fotoplaceholder';
-import galeri2 from '../assets/galeri2.jpeg';
-// Kalau sudah punya foto, taruh di src/assets lalu aktifkan baris ini:
-// import fotoProfil from '../assets/profil.jpg'
+import { Link } from 'react-router-dom'
+import FotoPlaceholder from './Fotoplaceholder'
+import galeri2 from '../assets/galeri2.jpeg'
 
 function Hero() {
   return (
@@ -13,9 +12,9 @@ function Hero() {
           <p className="peran">
             Mahasiswa Pendidikan Ilmu Komputer semester 3 di Universitas Pendidikan Indonesia.
           </p>
-          <a className="tombol" href="#kontak">
+          <Link className="tombol" to="/kontak">
             Hubungi saya
-          </a>
+          </Link>
         </div>
 
         <FotoPlaceholder

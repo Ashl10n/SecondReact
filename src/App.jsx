@@ -4,7 +4,7 @@ import Keahlian from './components/Keahlian'
 import Proyek from './components/Proyek'
 import Galeri from './components/Galeri'
 import Kontak from './components/Kontak'
-import './App.css'
+import './app.css'
 
 function App() {
   return (
