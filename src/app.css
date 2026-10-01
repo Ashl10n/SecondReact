@@ -14,7 +14,7 @@
 
 html {
   scroll-behavior: smooth;
-} 
+}
 
 body {
   margin: 0;
@@ -34,6 +34,51 @@ h1, h2, .nama {
 }
 
 a:focus-visible { outline: 3px solid var(--hitam); outline-offset: 3px; }
+
+/* ---------- Navbar ---------- */
+.navbar {
+  background: var(--hitam);
+  color: var(--putih);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 12px 24px;
+  padding: 18px 24px;
+  border-bottom: 1px solid #3a3a3a;
+}
+
+.navbar-merek {
+  font-family: 'Bricolage Grotesque', system-ui, sans-serif;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+}
+
+.navbar-daftar {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-tautan {
+  display: inline-block;
+  padding: 8px 14px;
+  border-radius: 999px;
+  color: #bdbdbd;
+  text-decoration: none;
+  font-weight: 500;
+  transition: background 0.15s, color 0.15s;
+}
+
+.navbar-tautan:hover { color: var(--putih); }
+
+.navbar-tautan.aktif {
+  background: var(--putih);
+  color: var(--hitam);
+}
 
 /* ---------- Hero: satu-satunya blok hitam ---------- */
 .hero { background: var(--hitam); color: var(--putih); }
