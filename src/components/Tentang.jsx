@@ -13,7 +13,7 @@ function Tentang() {
           <dt>Kuliah</dt>
           <dd>Pendidikan Ilmu Komputer, UPI</dd>
           <dt>Kota</dt>
-          <dd>Cimahi</dd>
+          <dd>Bandung</dd>
           <dt>Fokus</dt>
           <dd>Data & Web</dd>
         </dl>
