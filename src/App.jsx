@@ -1,12 +1,9 @@
-import { Routes, Route } from 'react-router-dom'
-import Navbar from './components/Navbar'
-import ScrollKeAtas from './components/ScrollKeAtas'
-import Beranda from './pages/Beranda'
-import TentangPage from './pages/TentangPage'
-import KeahlianPage from './pages/KeahlianPage'
-import ProyekPage from './pages/ProyekPage'
-import GaleriPage from './pages/GaleriPage'
-import KontakPage from './pages/KontakPage'
+import Hero from './components/Hero'
+import Tentang from './components/Tentang'
+import Keahlian from './components/Keahlian'
+import Proyek from './components/Proyek'
+import Galeri from './components/Galeri'
+import Kontak from './components/Kontak'
 import './app.css'
 
 function App() {
