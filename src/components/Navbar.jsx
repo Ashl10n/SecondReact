@@ -2,7 +2,7 @@ import { NavLink } from 'react-router-dom'
 
 const tautan = [
   { ke: '/', label: 'Beranda' },
-  { ke: '/tentang', label: 'Tentang' },
+  { ke: '/tentang', label: 'Tentang Saya' },
   { ke: '/keahlian', label: 'Keahlian' },
   { ke: '/proyek', label: 'Proyek' },
   { ke: '/galeri', label: 'Galeri' },
@@ -12,7 +12,6 @@ const tautan = [
 function Navbar() {
   return (
     <nav className="navbar">
-      <span className="navbar-merek">LAS</span>
       <ul className="navbar-daftar">
         {tautan.map((t) => (
           <li key={t.ke}>
